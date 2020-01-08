@@ -26,9 +26,6 @@ install:
 script: cd tests && ../vendor/bin/phpunit
 
 notifications:
-  webhooks:
-    urls:
-      - https://www.ilch.de/ilch2/versions/
     on_success: always
     on_failure: never
     on_start: false
